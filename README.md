@@ -6,4 +6,4 @@ This demo uses a "monkey patch" method to intercept the fetch api. If the reques
 
 ## The drawback
 
-Tauri uses serialization/deserialization to pass binary data to the frontend, which is terribly unefficient imo. The approach this demo uses may make it slower to read text base files, but reading binary files should be at the same speed as before. The tauri devs [said](https://github.com/tauri-apps/tauri/issues/1817#issuecomment-1018110141) this will be fixed in tauri v2, so, I'll leave it alone and wait for the next major version.
+Tauri uses serialization/deserialization to pass binary data to the frontend, which is terribly unefficient imo. The approach this demo uses may make it slower to read text based files, but reading binary files should be at the same speed as before. The tauri devs [said](https://github.com/tauri-apps/tauri/issues/1817#issuecomment-1018110141) this will be fixed in tauri v2, so, I'll leave it alone and wait for the next major version.
